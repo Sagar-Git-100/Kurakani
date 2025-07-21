@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurakani_backend", "Kurakani_backend\Kurakani_backend.csproj", "{55567A87-93CB-0407-826C-38855DC92D48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55567A87-93CB-0407-826C-38855DC92D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55567A87-93CB-0407-826C-38855DC92D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55567A87-93CB-0407-826C-38855DC92D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55567A87-93CB-0407-826C-38855DC92D48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6F63153-95A6-4B38-89B2-1C154E2D25E9}
+	EndGlobalSection
+EndGlobal
