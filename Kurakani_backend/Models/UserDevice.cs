@@ -11,6 +11,16 @@ namespace Kurakani_backend.Models
 {
     public class UserDevice
     {
-      
+        [Key]
+    public Guid DeviceId { get; set; }
+
+    [Required]
+    public Guid UserId { get; set; }
+    public User? User { get; set; }
+
+    public string DeviceToken { get; set; } = default!;
+    public PlatformType Platform { get; set; }
+    public DateTime LastActive { get; set; }
+    public bool IsLoggedIn { get; set; }
     }
 }

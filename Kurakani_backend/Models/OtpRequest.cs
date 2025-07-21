@@ -9,6 +9,13 @@ namespace Kurakani_backend.Models
 {
     public class OtpRequest
     {
-       
+         [Key]
+    public Guid OtpId { get; set; }
+
+    [Phone]
+    public string PhoneNumber { get; set; } = default!;
+    public string OtpCode { get; set; } = default!;
+    public bool IsVerified { get; set; }
+    public DateTime RequestedAt { get; set; }
     }
 }
